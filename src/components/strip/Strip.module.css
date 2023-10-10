@@ -1,0 +1,101 @@
+.stripContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.contentContainer {
+  display: flex;
+  height: 125px;
+  width: 350px;
+  gap: 2.5rem;
+}
+
+.contentContainer:hover {
+  cursor: pointer;
+}
+
+.contentContainer:hover h2 {
+  color: hsl(5, 85%, 63%);
+}
+
+.contentContainer img {
+  width: 100px;
+  height: 125px;
+}
+
+.textContainer {
+  padding-right: 1rem;
+}
+
+.textContainer h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: hsl(233, 8%, 79%);
+}
+
+.textContainer h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.textContainer p {
+  font-size: 1.3rem;
+  line-height: 2.3rem;
+  margin-bottom: 1rem;
+  color: hsl(236, 13%, 42%);
+}
+
+@media (min-width: 500px) {
+  .stripContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-bottom: 0;
+    justify-content: space-between;
+    padding: 0;
+    gap: 0;
+  }
+
+  .contentContainer {
+    display: flex;
+    height: 125px;
+    width: 350px;
+    gap: 2.5rem;
+  }
+
+  .contentContainer:hover {
+    cursor: pointer;
+  }
+
+  .contentContainer:hover h2 {
+    color: hsl(5, 85%, 63%);
+  }
+
+  .contentContainer img {
+    width: 100px;
+    height: 125px;
+  }
+
+  .textContainer h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: hsl(233, 8%, 79%);
+  }
+
+  .textContainer h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .textContainer p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    margin-bottom: 1rem;
+    color: hsl(236, 13%, 42%);
+  }
+}

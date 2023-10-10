@@ -1,0 +1,350 @@
+.image1 {
+  background-image: url(../../assets/images/image-web-3-mobile.jpg);
+  height: 300px;
+  width: 345px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 2rem;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstGridText {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.firstGridTextH1 {
+  display: flex;
+}
+
+.firstGridTextH1 h1 {
+  font-size: 4rem;
+  padding-right: 3rem;
+  margin-top: 1rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.firstGridTextP {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstGridTextP button {
+  margin-top: 2rem;
+  width: 50%;
+  background-color: hsl(240, 100%, 5%);
+  padding: 1.5rem 2rem;
+  text-transform: uppercase;
+  color: hsl(36, 100%, 99%);
+  letter-spacing: 0.3rem;
+  border: 1px solid transparent;
+  transition: 0.2s background-color ease;
+}
+
+.firstGridTextP button:hover {
+  cursor: pointer;
+  background-color: hsl(5, 85%, 63%);
+}
+
+.firstGridTextP p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: hsl(236, 13%, 42%);
+  margin: 0;
+}
+
+.secondGrid {
+  display: flex;
+  flex-direction: column;
+  width: 345px;
+  height: 490px;
+  background-color: hsl(240, 100%, 5%);
+  padding: 2rem;
+}
+
+.secondGrid1 {
+  display: flex;
+  flex-direction: column;
+  color: hsl(36, 100%, 99%);
+  height: 33%;
+}
+
+.secondGrid1:hover {
+  cursor: pointer;
+}
+
+.secondGrid1:hover h4 {
+  color: hsl(35, 77%, 62%);
+}
+
+.secondGrid1 h1 {
+  color: hsl(35, 77%, 62%);
+  margin: 1rem 0 2.5rem;
+}
+
+.secondGrid1 h4 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.secondGrid1 p {
+  margin: 1rem 0;
+  color: hsl(236, 13%, 42%);
+  font-size: 1.6rem;
+}
+
+.secondGrid2 {
+  display: flex;
+  flex-direction: column;
+  color: hsl(36, 100%, 99%);
+  height: 33%;
+}
+
+.secondGrid2:hover {
+  cursor: pointer;
+}
+
+.secondGrid2:hover h4 {
+  color: hsl(35, 77%, 62%);
+}
+
+.secondGrid2 h4 {
+  margin: 1.5rem 0;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.secondGrid2 p {
+  margin: 1rem 0;
+  color: hsl(236, 13%, 42%);
+  font-size: 1.6rem;
+}
+
+.secondGrid3 {
+  display: flex;
+  flex-direction: column;
+  color: hsl(36, 100%, 99%);
+  height: 33%;
+}
+
+.secondGrid3:hover {
+  cursor: pointer;
+}
+
+.secondGrid3:hover h4 {
+  color: hsl(35, 77%, 62%);
+}
+
+.secondGrid3 h4 {
+  margin: 1.5rem 0;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.secondGrid3 p {
+  margin: 1rem 0;
+  color: hsl(236, 13%, 42%);
+  font-size: 1.6rem;
+}
+
+.gridHr {
+  width: 100%;
+  border: 0.5px solid hsl(236, 13%, 42%);
+}
+
+/* --------------------------------------------- */
+
+@media (min-width: 500px) {
+  .image1 {
+    background-image: url(../../assets/images/image-web-3-desktop.jpg);
+    height: 300px;
+    width: 730px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gridContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 2rem;
+    height: 510px;
+    width: 1110px;
+  }
+
+  .firstGrid {
+    display: flex;
+    flex-direction: column;
+    width: 730px;
+    height: 510px;
+    gap: 2rem;
+  }
+
+  .firstGridText {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .firstGridTextH1 {
+    display: flex;
+    width: 50%;
+  }
+
+  .firstGridTextH1 h1 {
+    font-size: 5rem;
+    padding-right: 3rem;
+    margin-top: 1rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .firstGridTextP {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .firstGridTextP button {
+    margin-top: 2rem;
+    width: 50%;
+    background-color: hsl(240, 100%, 5%);
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 0.3rem;
+    border: 1px solid transparent;
+    transition: 0.2s background-color ease;
+  }
+
+  .firstGridTextP button:hover {
+    cursor: pointer;
+    background-color: hsl(5, 85%, 63%);
+  }
+
+  .firstGridTextP p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: hsl(236, 13%, 42%);
+    margin: 0;
+  }
+
+  .secondGrid {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    background-color: hsl(240, 100%, 5%);
+    padding: 2rem;
+  }
+
+  .secondGrid1 {
+    display: flex;
+    flex-direction: column;
+    color: hsl(36, 100%, 99%);
+    height: 33%;
+  }
+
+  .secondGrid1:hover {
+    cursor: pointer;
+  }
+
+  .secondGrid1:hover h4 {
+    color: hsl(35, 77%, 62%);
+  }
+
+  .secondGrid1 h1 {
+    color: hsl(35, 77%, 62%);
+    margin: 1rem 0 2.5rem;
+  }
+
+  .secondGrid1 h4 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .secondGrid1 p {
+    margin: 1rem 0;
+    color: hsl(236, 13%, 42%);
+    font-size: 1.6rem;
+  }
+
+  .secondGrid2 {
+    display: flex;
+    flex-direction: column;
+    color: hsl(36, 100%, 99%);
+    height: 33%;
+  }
+
+  .secondGrid2:hover {
+    cursor: pointer;
+  }
+
+  .secondGrid2:hover h4 {
+    color: hsl(35, 77%, 62%);
+  }
+
+  .secondGrid2 h4 {
+    margin: 1.5rem 0;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+  }
+  .secondGrid2 p {
+    margin: 1rem 0;
+    color: hsl(236, 13%, 42%);
+    font-size: 1.6rem;
+  }
+
+  .secondGrid3 {
+    display: flex;
+    flex-direction: column;
+    color: hsl(36, 100%, 99%);
+    height: 33%;
+  }
+
+  .secondGrid3:hover {
+    cursor: pointer;
+  }
+
+  .secondGrid3:hover h4 {
+    color: hsl(35, 77%, 62%);
+  }
+
+  .secondGrid3 h4 {
+    margin: 1.5rem 0;
+    margin-bottom: 0;
+    font-size: 1.8rem;
+  }
+  .secondGrid3 p {
+    margin: 1rem 0;
+    color: hsl(236, 13%, 42%);
+    font-size: 1.6rem;
+  }
+
+  .gridHr {
+    width: 100%;
+    border: 0.5px solid hsl(236, 13%, 42%);
+  }
+}

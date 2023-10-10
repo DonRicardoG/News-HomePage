@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-padding-top: 0rem;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  background-color: hsl(36, 100%, 99%);
+  width: 100%;
+
+  &.fijar-body {
+    overflow: hidden;
+  }
+  &.body-scroll {
+    padding-top: 8.6rem;
+  }
+}
+@media (min-width: 500px) {
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    margin: 0;
+    background-color: hsl(36, 100%, 99%);
+    width: 100%;
+    padding: 3rem 18rem;
+
+    &.fijar-body {
+      overflow: hidden;
+    }
+    &.body-scroll {
+      padding-top: 8.6rem;
+    }
+  }
+}
